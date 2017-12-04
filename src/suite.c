@@ -6,7 +6,7 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:58:03 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 02:55:11 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 03:44:39 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -16,7 +16,7 @@
 
 /*
 ** Creates a new suite element.
-** Returns a new pointer to the element, or NULL if malloc failed.
+** Returns a pointer to the element, or NULL if malloc failed.
 */
 
 static inline t_unit_suite	*create_suite(char *name, t_test test, int expected,
