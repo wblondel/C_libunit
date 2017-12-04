@@ -3,10 +3,10 @@
 /*                                                              /             */
 /*   libunit.h                                        .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: wblondel <marvin@le-101.fr>                +:+   +:    +:    +:+     */
+/*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:05:46 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 01:51:58 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 02:30:07 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -59,8 +59,13 @@ typedef struct				s_unit_suite
 }							t_unit_suite;
 
 /*
-** TODO: Functions to manage tests suites.
+** Functions to manage tests suites.
 */
+
+t_unit_suite				*unit_add_test(t_unit_suite **suite, char *name,
+											t_test_simple test, int expected);
+t_unit_suite				*unit_add_test_output(t_unit_suite **suite,
+									char *name, t_test_out test, int expected);
 
 /*
 ** A suites list contains test suites.
