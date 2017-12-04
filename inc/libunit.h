@@ -6,7 +6,7 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:05:46 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 05:58:59 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 08:00:40 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -25,6 +25,7 @@
 # include <fcntl.h>
 # include <stddef.h>
 # include <stdarg.h>
+# include "libft.h"
 
 /*
 ** Test result global variables

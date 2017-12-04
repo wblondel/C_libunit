@@ -6,13 +6,12 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 05:24:32 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 05:25:56 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 08:00:23 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "libunit.h"
-#include "libft.h"
 #include "color.h"
 
 /*

@@ -6,13 +6,12 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 05:51:43 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 05:57:01 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 08:00:16 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "libunit.h"
-#include "libft.h"
 
 /*
 ** Utility function to write to stdout and a file at the same time.

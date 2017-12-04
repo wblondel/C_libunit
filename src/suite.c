@@ -6,13 +6,12 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:58:03 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 03:44:39 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 08:00:10 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "libunit.h"
-#include "libft.h"
 
 /*
 ** Creates a new suite element.
