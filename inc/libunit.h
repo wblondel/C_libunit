@@ -6,7 +6,7 @@
 /*   By: wblondel <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:05:46 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 01:50:18 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 01:51:58 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -45,7 +45,7 @@ typedef union				u_test
 }							t_test;
 
 /*
-** A test suite contains individual test cases.
+** A tests suite contains individual test cases.
 ** There is generally one test suite per function.
 */
 
@@ -59,7 +59,7 @@ typedef struct				s_unit_suite
 }							t_unit_suite;
 
 /*
-** TODO: Functions to manage test suites.
+** TODO: Functions to manage tests suites.
 */
 
 /*
