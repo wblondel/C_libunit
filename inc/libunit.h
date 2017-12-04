@@ -6,7 +6,7 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:05:46 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 02:30:07 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 03:52:48 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -75,7 +75,7 @@ typedef struct				s_unit_list
 {
 	char					*name;
 	t_unit_suite			*suite;
-	struct s_unit_suite		*next;
+	struct s_unit_list		*next;
 }							t_unit_list;
 
 /*
