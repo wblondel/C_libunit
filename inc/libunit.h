@@ -79,7 +79,10 @@ typedef struct				s_unit_list
 }							t_unit_list;
 
 /*
-** TODO: Functions to manage suites lists.
+** Functions to manage suites lists.
 */
+
+t_unit_list					*unit_add_suite(t_unit_list **list, char *name,
+											t_unit_suite *suite);
 
 #endif
