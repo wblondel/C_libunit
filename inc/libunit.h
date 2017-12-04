@@ -6,7 +6,7 @@
 /*   By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/04 01:05:46 by wblondel     #+#   ##    ##    #+#       */
-/*   Updated: 2017/12/04 03:52:48 by wblondel    ###    #+. /#+    ###.fr     */
+/*   Updated: 2017/12/04 05:58:59 by wblondel    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -22,6 +22,9 @@
 # include <unistd.h>
 # include <sys/wait.h>
 # include <signal.h>
+# include <fcntl.h>
+# include <stddef.h>
+# include <stdarg.h>
 
 /*
 ** Test result global variables
@@ -66,6 +69,9 @@ t_unit_suite				*unit_add_test(t_unit_suite **suite, char *name,
 											t_test_simple test, int expected);
 t_unit_suite				*unit_add_test_output(t_unit_suite **suite,
 									char *name, t_test_out test, int expected);
+void						unit_run_suite(t_unit_suite *suite, char *name,
+									int *count, int *success);
+int							unit_assert_output(int *p, char *expect);
 
 /*
 ** A suites list contains test suites.
@@ -84,5 +90,12 @@ typedef struct				s_unit_list
 
 t_unit_list					*unit_add_suite(t_unit_list **list, char *name,
 											t_unit_suite *suite);
+int							unit_run_all(t_unit_list *list, char *name);
+
+/*
+** Utility functions
+*/
+
+void						unit_printf(const char *format, ...);
 
 #endif

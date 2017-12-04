@@ -6,7 +6,7 @@
 #    By: wblondel <wblondel@student.le-101.fr>      +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2017/12/04 02:31:10 by wblondel     #+#   ##    ##    #+#        #
-#    Updated: 2017/12/04 03:44:46 by wblondel    ###    #+. /#+    ###.fr      #
+#    Updated: 2017/12/04 05:54:12 by wblondel    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -32,7 +32,7 @@ SRC_PATH = src
 INC_PATH = inc
 OBJ_PATH = obj
 
-SRC_NAME = suite.c list.c
+SRC_NAME = suite.c list.c run.c io.c printf.c
 OBJ_NAME = $(SRC_NAME:.c=.o)
 SRC = $(addprefix $(SRC_PATH)/,$(SRC_NAME))
 OBJ = $(addprefix $(OBJ_PATH)/,$(OBJ_NAME))
